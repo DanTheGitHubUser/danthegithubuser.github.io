@@ -1,0 +1,38 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+!function(F){var B="[data-toggle=dropdown]",A=function(H){var G=F(H).on("click.dropdown.data-api",this.toggle);F("html").on("click.dropdown.data-api",function(){G.parent().removeClass("open")})};A.prototype={constructor:A,toggle:function(J){var I=F(this),H,G;if(I.is(".disabled, :disabled")){return }H=E(I);G=H.hasClass("open");D();if(!G){H.toggleClass("open")}I.focus();return false},keydown:function(L){var K,M,G,J,I,H;if(!/(38|40|27)/.test(L.keyCode)){return }K=F(this);L.preventDefault();L.stopPropagation();if(K.is(".disabled, :disabled")){return }J=E(K);I=J.hasClass("open");if(!I||(I&&L.keyCode==27)){if(L.which==27){J.find(B).focus()}return K.click()}M=F("[role=menu] li:not(.divider):visible a",J);if(!M.length){return }H=M.index(M.filter(":focus"));if(L.keyCode==38&&H>0){H--}if(L.keyCode==40&&H<M.length-1){H++}if(!~H){H=0}M.eq(H).focus()}};function D(){F(B).each(function(){E(F(this)).removeClass("open")})}function E(I){var G=I.attr("data-target"),H;if(!G){G=I.attr("href");G=G&&/#/.test(G)&&G.replace(/.*(?=#[^\s]*$)/,"")}H=G&&F(G);if(!H||!H.length){H=I.parent()}return H}var C=F.fn.dropdown;F.fn.dropdown=function(G){return this.each(function(){var I=F(this),H=I.data("dropdown");if(!H){I.data("dropdown",(H=new A(this)))}if(typeof G=="string"){H[G].call(I)}})};F.fn.dropdown.Constructor=A;F.fn.dropdown.noConflict=function(){F.fn.dropdown=C;return this};F(document).on("click.dropdown.data-api",D).on("click.dropdown.data-api",".dropdown form",function(G){G.stopPropagation()}).on("click.dropdown-menu",function(G){G.stopPropagation()}).on("click.dropdown.data-api",B,A.prototype.toggle).on("keydown.dropdown.data-api",B+", [role=menu]",A.prototype.keydown)}(window.jQuery);
+
+}
+/*
+     FILE ARCHIVED ON 22:23:47 Jul 04, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:18:40 Jun 05, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 671.62
+  exclusion.robots: 400.061
+  exclusion.robots.policy: 400.054
+  xauthn.identify: 194.363
+  xauthn.chkprivs: 205.522
+  RedisCDXSource: 13.836
+  esindex: 0.007
+  LoadShardBlock: 238.943 (3)
+  PetaboxLoader3.datanode: 244.95 (4)
+  CDXLines.iter: 17.272 (3)
+  load_resource: 161.793
+  PetaboxLoader3.resolve: 128.398
+*/
