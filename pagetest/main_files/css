@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Sans'), local('DroidSans'), url(http://web.archive.org/web/20130503002406im_/http://themes.googleusercontent.com/static/fonts/droidsans/v3/s-BiyweUPV0v-yRb-cjciC3USBnSvpkopQaUR-2r7iU.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Droid Sans Bold'), local('DroidSans-Bold'), url(http://web.archive.org/web/20130503002406im_/http://themes.googleusercontent.com/static/fonts/droidsans/v3/EFpQQyG9GqCrobXxL-KRMfEr6Hm6RMS0v1dtXsGir4g.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Glegoo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Glegoo'), local('Glegoo-Regular'), url(http://web.archive.org/web/20130503002406im_/http://themes.googleusercontent.com/static/fonts/glegoo/v1/rRnY1PEvm8fHngJkZm5BIA.ttf) format('truetype');
+}
+
+/*
+     FILE ARCHIVED ON 00:24:06 May 03, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:23:34 Jun 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 352.701
+  exclusion.robots: 256.129
+  exclusion.robots.policy: 256.113
+  xauthn.identify: 145.994
+  xauthn.chkprivs: 109.651
+  RedisCDXSource: 4.736
+  esindex: 0.018
+  LoadShardBlock: 62.736 (3)
+  PetaboxLoader3.datanode: 266.337 (4)
+  CDXLines.iter: 25.508 (3)
+  load_resource: 282.324
+  PetaboxLoader3.resolve: 57.915
+*/

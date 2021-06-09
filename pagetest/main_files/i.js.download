@@ -1,0 +1,37 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+if(typeof(_kmil) == 'function')_kmil();
+
+}
+/*
+     FILE ARCHIVED ON 20:23:58 Jun 12, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:23:58 Jun 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots: 3410.324
+  exclusion.robots.policy: 3410.311
+  xauthn.identify: 3322.65
+  xauthn.chkprivs: 87.431
+  RedisCDXSource: 0.886
+  esindex: 0.012
+  LoadShardBlock: 137.721 (6)
+  PetaboxLoader3.datanode: 143.685 (8)
+  CDXLines.iter: 103.811 (3)
+  load_resource: 219.135 (2)
+  PetaboxLoader3.resolve: 157.121 (2)
+*/
