@@ -5832,6 +5832,7 @@
     <title>Canvas Comedy World</title>
     <style>
       body {
+        margin: auto;
         overflow: hidden;
       }
     </style>
@@ -5912,14 +5913,14 @@
 
       var tr = new Konva.Transformer();
 
-      layer.add(bground);  
+      layer.add(bground);     
       layer.add(drawer, tr);
+      layer.add(bed, tr);  
       layer.add(lamp, tr);
-      layer.add(bed, tr)
       layer.add(image, tr);
       tr.nodes([drawer]);
-      tr.nodes([lamp]);
       tr.nodes([bed]);
+      tr.nodes([lamp]);
       tr.nodes([image]);
       tr.setZIndex(5);
       
@@ -5937,12 +5938,12 @@
       }
       if (currentShape === lamp) {
       tr.nodes([lamp]);
+      }      
+      if (currentShape === bed) {
+      tr.nodes([bed]);
       }
       if (currentShape === drawer) {
       tr.nodes([drawer]);
-      }
-      if (currentShape === bed) {
-      tr.nodes([bed]);
       }
       layer.draw();
       });
